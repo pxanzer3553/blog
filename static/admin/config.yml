@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: pxanzer3553/blog
+  accept_roles:
+  - admin
+  - editor
+
 
 media_folder: static/img
 public_folder: /img
